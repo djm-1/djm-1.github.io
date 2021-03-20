@@ -1,0 +1,149 @@
+/* theme-color ---> #4299e1 */
+body{
+    width: 100%;
+    overflow-x:hidden;
+}
+.navbar-nav{
+    margin-left:auto;
+    margin-right: 0px;
+}
+.navbar-brand{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+}
+.nav-link{
+    padding: 10px !important;
+}
+.nav-link:hover{
+    background-color: #4299e1;
+    color: white !important;
+    border-radius: 5px;
+}
+.upper-box{
+    background-color: #4299e1;
+    padding-top: 8%;
+}
+.heading-1{
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-weight: 900;
+}
+.heading-2{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-top: 5%;
+}  
+.heading-1 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+.wave{
+    width: 100%;
+    height: 100px;
+    background: url(wave.png);
+    background-size: 1000px 100px;
+    animation: animate 20s infinite linear;
+}
+@keyframes animate{
+    0%{
+        background-position: 0px;
+    }
+    100%{
+        background-position: 1000px;
+    }
+}
+
+.highlight{
+    border-radius: 5px;
+    border: 3px solid rgba(229,231,235,1);
+    text-align: center;
+    margin: 5%;
+}
+.highlight:hover{
+    background-color: #4299e1;
+    color: white;
+    box-shadow: 0 0 20px gray;
+}
+.highlight:hover .smol{
+    color: white;
+}
+.midbox-1{
+    margin: 5%;
+}
+.midbox-2
+{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: white;
+    padding: 2%;
+    box-shadow: 0 0 35px black;
+    /* border-radius: 10px;
+    border: 4px solid rgba(229,231,235,1); */
+}
+.otherskil{
+    background-color: rgba(243,244,246,1);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 8px lightgray;
+}
+.midbox-3{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.skil:hover{
+    transform: scale(1.2);
+}
+
+/* swipe styling */
+.swiper-container {
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+}
+.midbox-4{
+    background-color: #4299e1;
+}
+.card-img-top{
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+}
+.social{
+    width: 30px;
+    height: 30px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.contact{
+    padding: 3%;
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 5px;
+    /* border: 3px solid rgba(229,231,235,1); */
+    box-shadow: 0 0 15px lightgray;
+    background-color: #4299e1;
+    color: white;
+}
+footer{
+    background-color: rgba(243,244,246,1);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 5%;
+}
+.abtme{
+    font-size: 16px;
+    margin-top: 4%;
+    margin-bottom: 6%;
+}

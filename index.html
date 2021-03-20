@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+  <title>Welcome to my portfolio</title>
+</head>
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid" style="margin-left: 5%; margin-right:5%;">
+      <a class="navbar-brand" href=""><span style="color: #4299e1;">Dibya</span>jyoti</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="#AboutMe">About Me</a>
+          <a class="nav-link" href="#Skills">Skills</a>
+          <a class="nav-link" href="#Projects">Projects</a>
+          <a class="nav-link" href="#ContactMe">Contact Me</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar end -->
+  <div class="row upper-box">
+    <div class="col-md-6" style="text-align:center;">
+      <h1 class="heading-1">Hi, I am Dibyajyoti Mondal</h1>
+      <h3 class="heading-2" data-aos="fade-up" data-aos-duration="2500">I love to code and make awesome stuff</h3>
+      <a href="" class="btn btn-outline-light mt-5 mb-5">Get Resume</a>
+    </div>
+    <div class="col-md-6" style="text-align:center;padding-bottom:8%">
+      <img src="djm-1.jpeg" id="my-face" alt="" style="box-shadow:0 0 30px black" data-aos="fade-left" data-aos-duration="2500">
+    </div>
+    <!-- wave animation -->
+    <section class="wave">
+    </section>
+  </div>
+  
+  <!-- midbox-1 -->
+  <div class="midbox-1 mt-4" id="AboutMe">
+    <h2 style="font-family: 'Roboto', sans-serif;" class="text-center mb-3"><span style="color: #4299e1;">About</span> Myself</h2>
+    <div class="abtme">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <h5>General Introduction</h5> 
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Hello, I am Dibyajyoti Mondal, currently pursuing <strong>Electronics and Telecommunication Engineering 
+                at Jadavpur University (2019-2023).</strong> My passion is to code and make cool stuff out of this.
+                My interest mainly lies in the field of web development and competitive programming.
+                I also love to contribute as an open-source contributor. 
+                In my leisure time, I play games and read/write answers on Quora. Being a fan of Lionel Messi, I believe this quote to be my motto... <strong>“You can overcome anything, if and only if you love something enough.”</strong> 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+             <h5>Competitive Programming</h5> 
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>
+                I love to solve various problems based on maths, data-structures and algorithms.
+                I enjoy the Competitive programming very much. My coding handle is <strong>djm_boss</strong>
+                across all major competitive coding websites like HackerRank, Codechef, CodeForces, LeetCode etc. <strong>I am a 5 star coder at Codechef.</strong>
+                I regularly solve problems to enhance my problem-solving skill and speed as well.
+              </p>
+              <div class="row" style="width: 60%; margin-left:auto; margin-right:auto">
+                <div class="col-sm-4"><a href="https://www.hackerrank.com/djm_boss" target="blank" class="btn btn-primary">
+                  <i class="fas fa-external-link-alt"></i> HackerRank Profile</a>
+                </div>
+                <div class="col-sm-4"><a href="https://www.codechef.com/users/djm_boss" target="blank" class="btn btn-primary">
+                  <i class="fas fa-external-link-alt"></i> Codechef Profile</a>
+                </div>
+                <div class="col-sm-4"><a href="https://codeforces.com/profile/djm_boss" target="blank" class="btn btn-primary">
+                  <i class="fas fa-external-link-alt"></i> Codeforces Profile</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <h5>Full stack Web Development</h5>  
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>I am a Full-stack web developer. I can make awesome websites using Html, CSS, BootStrap, Django, JavaScript etc. I have Worked on several web development projects. Currently, I am working as a <strong>web developer intern at JDMR Ischool</strong>, an Ed-tech startup. Here, I have worked on the School Management System Project using <strong>Html, CSS, JavaScript, Jquery, Django, Ajax, Matplotlib, REST API </strong>etc.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-md-3">
+        <div class="highlight" data-aos="flip-left" data-aos-duration="2500">
+          <span style="color:#4299e1">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-code-square mt-3 mb-3 smol" viewBox="0 0 16 16">
+            <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+            <path d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0zm2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0z"/>
+          </svg>
+          </span>
+          <h2>10k+</h2>
+          <p>Lines of code</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="highlight" data-aos="flip-right" data-aos-duration="2500">
+          <span style="color:#4299e1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-pencil-square mt-3 mb-3 smol" viewBox="0 0 16 16">
+              <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456l-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+              <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+            </svg>
+          </span>
+          <h2>500+</h2>
+          <p>Solved problems</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="highlight" data-aos="flip-left" data-aos-duration="2500">
+          <span style="color:#4299e1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-github mt-3 mb-3 smol" viewBox="0 0 16 16">
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+            </svg>
+          </span>
+          <h2>5+</h2>
+          <p>Projects made</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="highlight" data-aos="flip-right" data-aos-duration="2500">
+          <span style="color:#4299e1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-cup-straw mt-3 mb-3 smol" viewBox="0 0 16 16">
+              <path d="M13.902.334a.5.5 0 0 1-.28.65l-2.254.902-.4 1.927c.376.095.715.215.972.367.228.135.56.396.56.82 0 .046-.004.09-.011.132l-.962 9.068a1.28 1.28 0 0 1-.524.93c-.488.34-1.494.87-3.01.87-1.516 0-2.522-.53-3.01-.87a1.28 1.28 0 0 1-.524-.93L3.51 5.132A.78.78 0 0 1 3.5 5c0-.424.332-.685.56-.82.262-.154.607-.276.99-.372C5.824 3.614 6.867 3.5 8 3.5c.712 0 1.389.045 1.985.127l.464-2.215a.5.5 0 0 1 .303-.356l2.5-1a.5.5 0 0 1 .65.278zM9.768 4.607A13.991 13.991 0 0 0 8 4.5c-1.076 0-2.033.11-2.707.278A3.284 3.284 0 0 0 4.645 5c.146.073.362.15.648.222C5.967 5.39 6.924 5.5 8 5.5c.571 0 1.109-.03 1.588-.085l.18-.808zm.292 1.756C9.445 6.45 8.742 6.5 8 6.5c-1.133 0-2.176-.114-2.95-.308a5.514 5.514 0 0 1-.435-.127l.838 8.03c.013.121.06.186.102.215.357.249 1.168.69 2.438.69 1.27 0 2.081-.441 2.438-.69.042-.029.09-.094.102-.215l.852-8.03a5.517 5.517 0 0 1-.435.127 8.88 8.88 0 0 1-.89.17zM4.467 4.884s.003.002.005.006l-.005-.006zm7.066 0l-.005.006c.002-.004.005-.006.005-.006zM11.354 5a3.174 3.174 0 0 0-.604-.21l-.099.445.055-.013c.286-.072.502-.149.648-.222z"/>
+            </svg>
+          </span>
+          <h2>Infinite</h2>
+          <p>Cups of coffee</p>
+        </div>
+      </div>
+    </div>
+
+
+    
+  </div>
+
+<!-- midbox-1 end -->
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#4299e1" fill-opacity="1" d="M0,128L48,112C96,96,192,64,288,80C384,96,480,160,576,165.3C672,171,768,117,864,106.7C960,96,1056,128,1152,144C1248,160,1344,160,1392,160L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+<!-- midbox-2  begin-->
+<div style="background-color: #4299e1;" id="Skills">
+<div class="midbox-2" data-aos="zoom-in" data-aos-duration="2000">
+  <h2 style="font-family: 'Roboto', sans-serif;" class="text-center mb-5"><span style="color: #4299e1;">My Tech</span> Stack</h2>
+  
+  <div class="row">
+    <div class="col-sm-4 p-3">
+        <img src="009-c-1.svg" alt="" height="80" width="80" class="skil">
+    </div>
+    <div class="col-sm-4 p-3">
+      <img src="008-c.svg" alt="" height="80" width="80" class="skil">
+    </div>
+    <div class="col-sm-4 p-3">
+      <img src="004-python.svg" alt="" height="80" width="80" class="skil">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-4 p-3">
+        <img src="007-html-5.svg" alt="" height="80" width="80" class="skil">
+    </div>
+    <div class="col-sm-4 p-3">
+      <img src="005-css.svg" alt="" height="80" width="80" class="skil">
+    </div>
+    <div class="col-sm-4 p-3">
+      <img src="django-logo.svg" alt="" height="90" width="120" class="skil">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-4 p-3">
+        <img src="002-javascript.svg" alt="" height="80" width="80" class="skil">
+    </div>
+    <div class="col-sm-4 p-3">
+      <img src="JQuery-Logo.svg" alt="" height="60" width="180" class="skil">
+    </div>
+    <div class="col-sm-4 p-3">
+      <img src="git.svg" alt="" height="80" width="80" class="skil">
+    </div>
+  </div>
+</div>
+</div>
+<!-- midbox-2 end -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#4299e1" fill-opacity="1" d="M0,128L48,112C96,96,192,64,288,80C384,96,480,160,576,165.3C672,171,768,117,864,106.7C960,96,1056,128,1152,144C1248,160,1344,160,1392,160L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+
+
+
+<!-- midbox-3 begin -->
+<div class="midbox-3">
+  <h2 style="font-family: 'Roboto', sans-serif;" class="text-center mb-3"><span style="color: #4299e1;">Other</span> Skills</h2>
+  <div class="row">
+    <div class="col-sm-6 px-4 py-3">
+      <div class="otherskil" data-aos="fade-right" data-aos-duration="2000">
+        <svg style="height: 25; width:25" fill="none" stroke="#4299e1" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-blue-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path><path d="M22 4L12 14.01l-3-3"></path></svg>
+        <strong>Data structure and Algorithms</strong>
+      </div>
+    </div>
+    <div class="col-sm-6 px-4 py-3">
+      <div class="otherskil" data-aos="fade-left" data-aos-duration="2000">
+        <svg style="height: 25; width:25" fill="none" stroke="#4299e1" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-blue-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path><path d="M22 4L12 14.01l-3-3"></path></svg>
+        <strong>Competitive Programming</strong>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-6 px-4 py-3">
+      <div class="otherskil" data-aos="fade-right" data-aos-duration="2000">
+        <svg style="height: 25; width:25" fill="none" stroke="#4299e1" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-blue-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path><path d="M22 4L12 14.01l-3-3"></path></svg>
+        <strong>Mathematics</strong>
+      </div>
+    </div>
+    <div class="col-sm-6 px-4 py-3">
+      <div class="otherskil" data-aos="fade-left" data-aos-duration="2000">
+        <svg style="height: 25; width:25" fill="none" stroke="#4299e1" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-blue-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path><path d="M22 4L12 14.01l-3-3"></path></svg>
+        <strong>Open Source Contributor</strong>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-6 px-4 py-3">
+      <div class="otherskil" data-aos="fade-right" data-aos-duration="2000">
+        <svg style="height: 25; width:25" fill="none" stroke="#4299e1" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-blue-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path><path d="M22 4L12 14.01l-3-3"></path></svg>
+        <strong>Communication Skills</strong>
+      </div>
+    </div>
+    <div class="col-sm-6 px-4 py-3">
+      <div class="otherskil" data-aos="fade-left" data-aos-duration="2000">
+        <svg style="height: 25; width:25" fill="none" stroke="#4299e1" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-blue-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path><path d="M22 4L12 14.01l-3-3"></path></svg>
+        <strong>Leadership Skills</strong>
+      </div>
+    </div>
+  </div>
+
+</div>
+<!-- midbox-3 end -->
+
+
+<!-- midbox-4 begin -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#4299e1" fill-opacity="1" d="M0,256L48,261.3C96,267,192,277,288,256C384,235,480,181,576,181.3C672,181,768,235,864,245.3C960,256,1056,224,1152,213.3C1248,203,1344,213,1392,218.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+<div class="midbox-4" id="Projects">
+  <h2 style="font-family: 'Roboto', sans-serif;" class="text-center mb-5"><span style="color: white;">Projects And</span> Work Experience</h2>
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      
+      <div class="card swiper-slide">
+        <img src="pro-1.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Internship at JDMR Ischool</h5>
+          <p class="card-text">I have worked as a web developer intern at JDMR Ischool, an Ed-tech startup.</p>
+          <a target="blank" href="" class="btn btn-primary">View certificate</a>
+        </div>
+      </div>
+      
+      <div class="card swiper-slide">
+          <img src="pro-2.svg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Quizmaster</h5>
+            <p class="card-text">A website to Host and participate in quiz contests. Made using Html, CSS, Bootstrap, Django, Javascript, Jquery.</p>
+            <a target="blank" href="http://quizmaster.pythonanywhere.com/" class="btn btn-primary">View Project</a>
+          </div>
+      </div>
+      
+      <div class="card swiper-slide">
+        <img src="pro-3.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Bookify</h5>
+          <p class="card-text">Summarize pdf into audio file in the language of your choice. Made at HackNITP 3.0 hackathon.</p>
+          <a target="blank" href="https://bookify-hack-nitp.herokuapp.com/" class="btn btn-primary">View Project</a>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <img src="pro-4.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Old portfolio website</h5>
+          <p class="card-text">It's my old portfolio website. Made it using Html, CSS, Bootstrap etc.</p>
+          <a target="blank" href="https://djm-1.github.io/dibyajyotimondal/" class="btn btn-primary">View Project</a>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <img src="pro-5.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">ETCE Opensource Website</h5>
+          <p class="card-text">Made the opensource portfolio website of our department using Flask and GitHub API.</p>
+          <a target="blank" href="http://etcedemo.pythonanywhere.com/" class="btn btn-primary">View Project</a>
+        </div>
+      </div>
+    </div>
+    <!-- Add Pagination -->
+    <!-- <div class="swiper-pagination"></div> -->
+  </div>
+
+</div>
+<!-- midbox-4 end -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#4299e1" fill-opacity="1" d="M0,32L48,58.7C96,85,192,139,288,138.7C384,139,480,85,576,69.3C672,53,768,75,864,106.7C960,139,1056,181,1152,181.3C1248,181,1344,139,1392,117.3L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+
+<!-- midbox-5 -->
+<div class="midbox-5" id="ContactMe">
+  <h2 style="font-family: 'Roboto', sans-serif;" class="text-center mb-5"><span style="color: #4299e1;">Contact</span> Me</h2>  
+
+  <div class="row">
+    <div class="col-md-6 text-center">
+      <img src="my-octocat.png" id="myoctocat" alt="" style="width: 60%;">
+    </div>
+    <div class="col-md-6">
+      <div class="contact" data-aos="zoom-in">
+        <!-- modify this form HTML and place wherever you want your form -->
+
+        <!-- contact form -->
+        <form action="https://formspree.io/f/mvodpoyg" method="POST">
+        <div class="row">
+          <div class="mb-3 col-md-6">
+            <label for="username" class="form-label">Name</label>
+            <input type="text" class="form-control" name="Username" id="username" placeholder="Your name here" required>
+          </div>
+          <div class="mb-3 col-md-6">
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email" name="Email ID" placeholder="name@example.com" required>
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" name="Message" rows="3" placeholder="Write your message here" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-secondary">Send Message</button>
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+</div>
+<!-- midbox-5 end -->
+
+<footer class="text-center">
+<p>Made With ❤ by Dibyajyoti Mondal © 2021</p>
+<div>
+  <a href="mailto: dibyajyoti.bhs@gmail.com" target="blank"><img src="003-gmail.svg" alt="" class="social"></a>
+  <a href="https://www.linkedin.com/in/dibyajyoti-mondal-8632991a0/" target="blank"><img src="linkedin.svg" alt="" class="social"></a>
+  <a href="https://github.com/djm-1" target="blank"><img src="006-github.svg" alt="" class="social"></a>
+  <a href="https://www.quora.com/profile/Dibyajyoti-Mondal-5" target="blank"><img src="001-quora.svg" alt="" class="social"></a>
+  <a href="http://wa.me/+919775252401" target="blank"><img src="010-whatsapp.svg" alt="" class="social"></a>
+  <a href="https://www.youtube.com/channel/UCkhieeBPsDcuc1JRNwibUDw" target="blank"><img src="012-youtube.svg" alt="" class="social"></a>
+</div>
+
+</footer>
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
